@@ -12,3 +12,6 @@ breakzip.py -a <a|A|1> -c <Number of Chinese characters used in dictionary> -d <
 `-f file` 要解密的zip文件
 `-g number` 密码最大长度
 `-l number` 密码长度等于
+
+> example: 
+> ./breakzip.py -a aA1 -c 2500 -d "./chinese/2500zi.txt" -f "./test.zip" -g 4
